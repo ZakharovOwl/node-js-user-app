@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "target": "ESNext", // Обновил на ESNext
+    "module": "CommonJS", // Обновил на CommonJS
+    "moduleResolution": "Node",
+    "declaration": true,
+    "lib": ["ESNext"], // Обновил на ESNext
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
