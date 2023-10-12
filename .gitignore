@@ -1,3 +1,6 @@
+# Ignore WebStorm related files
+.idea/
+
 # Logs
 logs
 *.log
