@@ -1,0 +1,21 @@
+# Request to add a user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Alex Test",
+  "age": 27
+}
+
+###
+# Request to get all users
+GET http://localhost:3000/users
+
+###
+# Request to get a user by ID (replace :id with the actual user ID)
+GET http://localhost:3000/users/:id
+
+###
+# Request to delete a user by ID (replace :id with the actual user ID)
+# DELETE http://localhost:3000/users/:id
+DELETE http://localhost:3000/users/1
